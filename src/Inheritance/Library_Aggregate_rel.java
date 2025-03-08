@@ -38,7 +38,7 @@ public class Library_Aggregate_rel {
         //cityLibrary.addBook(myBook); //NullPointerException
         //cityLibrary.showBook(); //NullPointerException
 
-        myBook.displayBookDetails(); // But we can access book details even after destroying library object through Book object
+        myBook.displayBookDetails(); // But we can access book details through Book object even after destroying library object.
 
     }
 }
