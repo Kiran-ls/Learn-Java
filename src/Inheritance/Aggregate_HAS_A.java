@@ -32,3 +32,4 @@ public class Aggregate_HAS_A {
         System.out.println("Song: " +hitSong.title + " by " + hitSong.artist);
     }
 }
+//If 2 entities are not similar but they have relation to represent these kind of relationship we use HAS-A relationship
