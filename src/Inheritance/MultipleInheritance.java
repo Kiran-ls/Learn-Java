@@ -26,7 +26,7 @@ class Painter extends Object {
     }
 }
 
-class Artist extends Singer, Painter {
+class Artist extends Singer {//Painter
     /*The problem occurs when there exist methods with the same signature in both the superclasses and subclass.
     On calling the method, the compiler cannot determine which class method to be called and even on calling which
     class method gets the priority. */
