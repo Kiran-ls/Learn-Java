@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Palindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a numner");
+        System.out.println("Enter a number");
         int num = sc.nextInt();
         int temp = num;
         int rev = 0, lastdig = 0;
@@ -17,7 +17,7 @@ public class Palindrome {
         if(temp==rev) {
             System.out.println(temp + " is palindrome");
         } else {
-            System.out.println(temp + "not plaindrome");
+            System.out.println(temp + "not palindrome");
         }
     }
 }

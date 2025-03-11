@@ -1,7 +1,7 @@
 package Patterns;
 
 public class Alphabet_Patterns {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
 //		for (char i = 'A'; i <= 'D'; i++) {         //AAAA
 //			for (char j = 'A'; j <= 'D'; j++) {		//BBBB
 //				System.out.print(i);				//CCCC
