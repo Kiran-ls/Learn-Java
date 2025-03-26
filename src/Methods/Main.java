@@ -1,5 +1,6 @@
 package Methods;
 
+
 import java.util.Scanner;
 
 public class Main {
@@ -9,7 +10,8 @@ public class Main {
         String name = sc.nextLine();
         System.out.println("Name: " + name);
         System.out.print("Enter your Age:");
-        int age = sc.nextInt()	;
+        int age = sc.nextInt();
         System.out.println("Age: " + age);
     }
+
 }
