@@ -1,6 +1,6 @@
 package OOPs.Constructors;
 
-public class Constructor1 {
+public class ParameterCons {
     public static void main(String[] args) {
         Student st = new Student(1, "KL", "CS", 8.7, 2024); //passing values through constructor
         st.giveIntro();
@@ -36,7 +36,7 @@ class Student {
 }
 
 /*
-1. OOPs.Constructors are the special methods whose name is same as the class name.
-2. OOPs.Constructors are used to instantiate the objects(meaning giving values to objects).
-3. OOPs.Constructors are called at the time of object creation.
+1. Constructors are the special methods whose name is same as the class name.
+2. Constructors are used to instantiate the objects(meaning giving values to objects).
+3. Constructors are called at the time of object creation.
 */
