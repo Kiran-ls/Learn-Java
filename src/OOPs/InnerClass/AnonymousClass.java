@@ -15,3 +15,8 @@ public class AnonymousClass {
 abstract class Greeter {
     public abstract void greet();
 }
+/*we can also do it for interface
+interface Greeter {
+public void greet();
+}
+*/
