@@ -1,5 +1,6 @@
 package OOPs.InnerClass;
 
+//Static nested class
 class ShapeCalc {
     static class Circle {
         public static double calculateArea(double radius) {
