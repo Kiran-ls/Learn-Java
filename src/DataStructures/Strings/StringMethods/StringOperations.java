@@ -1,4 +1,4 @@
-package DataStructures.Strings;
+package DataStructures.Strings.StringMethods;
 
 public class StringOperations {
     public static void main(String[] args) {
