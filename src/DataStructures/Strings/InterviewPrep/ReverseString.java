@@ -1,4 +1,4 @@
-package DataStructures.Strings;
+package DataStructures.Strings.InterviewPrep;
 
 import java.util.Scanner;
 
