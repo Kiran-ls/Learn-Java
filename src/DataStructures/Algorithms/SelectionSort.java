@@ -13,6 +13,7 @@ public class SelectionSort {
         for (int i = 0; i < size; i++) {
             a[i] = sc.nextInt();
         }
+
         //logic for selection sort
         for (int i = 0; i < a.length-1; i++) {
             int minIndex = i;

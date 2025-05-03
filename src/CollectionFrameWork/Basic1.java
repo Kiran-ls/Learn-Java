@@ -14,5 +14,6 @@ public class Basic1 {
 
         System.out.println("List: " + list);
         System.out.println("Size = " + list.size());
+        System.out.println(list.set(0, 50));
     }
 }
