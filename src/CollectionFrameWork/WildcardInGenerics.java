@@ -1,6 +1,7 @@
 package CollectionFrameWork;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class WildcardInGenerics {
     public static void main(String[] args) {
@@ -27,7 +28,7 @@ public class WildcardInGenerics {
         display(orangeList);
     }
 
-    public static void display(orangeList<?> fruitList) {
+    public static void display(List<?> fruitList) {
         System.out.println("Fruit list: " + fruitList);
         System.out.println("number of fruits: " + fruitList.size());
     }
