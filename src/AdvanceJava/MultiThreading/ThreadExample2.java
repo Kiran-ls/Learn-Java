@@ -1,16 +1,19 @@
 package AdvanceJava.MultiThreading;
 
-//using Thread class
-public class ThreadExample {
+//using Runnable() interface
+public class ThreadExample2 {
     public static void main(String[] args) {
-        NumberThread nt = new NumberThread();
-        AlphabetThread at = new AlphabetThread();
+        NumberPrinting numbers = new NumberPrinting();
+        AlphabetPrinting alphabets = new AlphabetPrinting();
 
-        nt.start();
-        at.start();
+        Thread t1 = new Thread(numbers);
+        Thread t2 = new Thread(alphabets);
+        t1.start();
+        t2.start();
     }
 }
-class NumberThread extends Thread {
+
+class NumberPrinting implements Runnable {
     public void run() {
         try {
             for (int i = 1; i <= 5; i++) {
@@ -22,7 +25,8 @@ class NumberThread extends Thread {
         }
     }
 }
-class AlphabetThread extends Thread {
+
+class AlphabetPrinting implements Runnable {
     public void run() {
         try {
             for (char i = 'a'; i <= 'e'; i++) {
@@ -34,9 +38,3 @@ class AlphabetThread extends Thread {
         }
     }
 }
-
-/*
-* Two ways are there to create thread
-* 1. using Thread class. The above code is created using Thread class
-* 2. using Runnable interface.
-* */
